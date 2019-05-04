@@ -14,7 +14,7 @@ screen = np.zeros((x,y),dtype=np.str)
 
 
 while True:
-  os.system('clear')
+  os.system('cls')
   screen[:,:]=Draw()
   screenstr = (x+2)*'█'+'\n'
   for i in range(y):
